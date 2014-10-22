@@ -1,0 +1,59 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mailings: MyString
+  holiday_mailings: MyString
+  on_website: MyString
+  company: MyString
+  account_number: 1
+  restrictions: MyString
+  credit: MyString
+  state: MyString
+  whose_account: MyString
+  last_order: 2014-10-22
+  sublimes_sold: 1
+  new_sublimes: MyString
+  sublimes_samples: MyString
+  sublimes_holder: MyString
+  sublimes_poster: MyString
+  sublimes_sticker: MyString
+  shb_sold: 1
+  shb_samples: MyString
+  rdlf_sold: 1
+  fuerte_old_sold: 1
+  fuerte_rico_sold: 1
+  40anniver_sold: 1
+  remarks: MyText
+  name: MyString
+  phone: 1
+  fax: 1
+  fl_resale_cert: MyString
+
+two:
+  mailings: MyString
+  holiday_mailings: MyString
+  on_website: MyString
+  company: MyString
+  account_number: 1
+  restrictions: MyString
+  credit: MyString
+  state: MyString
+  whose_account: MyString
+  last_order: 2014-10-22
+  sublimes_sold: 1
+  new_sublimes: MyString
+  sublimes_samples: MyString
+  sublimes_holder: MyString
+  sublimes_poster: MyString
+  sublimes_sticker: MyString
+  shb_sold: 1
+  shb_samples: MyString
+  rdlf_sold: 1
+  fuerte_old_sold: 1
+  fuerte_rico_sold: 1
+  40anniver_sold: 1
+  remarks: MyText
+  name: MyString
+  phone: 1
+  fax: 1
+  fl_resale_cert: MyString
