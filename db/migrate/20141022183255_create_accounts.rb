@@ -22,7 +22,7 @@ class CreateAccounts < ActiveRecord::Migration
       t.integer :rdlf_sold
       t.integer :fuerte_old_sold
       t.integer :fuerte_rico_sold
-      t.integer :40anniver_sold
+      t.integer :anniversario_sold
       t.text :remarks
       t.string :name
       t.integer :phone
