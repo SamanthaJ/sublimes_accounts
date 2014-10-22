@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SublimesAccounts</title>
+  <title>Miscellany</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <%= link_to "SUBLIMES", root_path, class: "navbar-brand" %>
+    </div>
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Accounts", accounts_path %></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+</nav>
+<div class="container"><%= yield %></div>
 
 </body>
 </html>

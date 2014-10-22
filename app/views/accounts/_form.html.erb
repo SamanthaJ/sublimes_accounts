@@ -1,0 +1,87 @@
+<div class="row">
+<div class="span6 offset3">
+  <%= form_for @account, {:class => "inline"} do |f| %>
+   
+    <%= f.label :mailings, "Mailings"  %><br/>
+    <%= f.text_field :mailings %><br/>
+  
+    <%= f.label :holiday_mailings, "Holiday Specials" %><br/>
+    <%= f.text_field :holiday_mailings %><br/>
+      
+    <%= f.label :on_website, "On Website?" %><br/>
+    <%= f.text_field :on_website %><br/>
+
+    <%= f.label :company, "Company" %><br/>
+    <%= f.text_field :company %><br/>
+
+    <%= f.label :account_number, "Account No."  %><br/>
+    <%= f.number_field :account_number %><br/>
+
+    <%= f.label :restrictions, "Restrictions" %><br/>
+    <%= f.text_field :restrictions %><br/>
+
+    <%= f.label :credit, "Credit" %><br/>
+    <%= f.text_field :credit %><br/>
+
+    <%= f.label :state, "State" %><br/>
+    <%= f.text_field :state %><br/>
+
+    <%= f.label :whose_account, "Whose Account"  %><br/>
+    <%= f.text_field :whose_account %><br/>
+
+    <%= f.label :last_order, "Last Order" %><br/>
+    <%= f.text_field :last_order %><br/>
+
+    <%= f.label :sublimes_sold, "Sublimes Sold" %><br/>
+    <%= f.number_field :sublimes_sold %><br/>
+
+    <%= f.label :new_sublimes, "New Sublimes" %><br/>
+    <%= f.text_field :new_sublimes %><br/>
+
+    <%= f.label :sublimes_samples, "Sublimes Samples" %><br/>
+    <%= f.number_field :sublimes_samples %><br/>
+
+    <%= f.label :sublimes_poster, "Sublimes Poster" %><br/>
+    <%= f.text_field :sublimes_poster %><br/>
+
+    <%= f.label :sublimes_sticker, "Sublimes Sticker" %><br/>
+    <%= f.text_field :sublimes_sticker %><br/>
+
+    <%= f.label :shb_sold, "SHB Sold" %><br/>
+    <%= f.number_field :shb_sold %><br/>
+
+    <%= f.label :shb_samples, "SHB Samples" %><br/>
+    <%= f.text_field :shb_samples %><br/>
+
+    <%= f.label :rdlf_sold, "RDLF Sold" %><br/>
+    <%= f.number_field :rdlf_sold %><br/>
+
+    <%= f.label :fuerte_old_sold, "FUERTE Old Sold" %><br/>
+    <%= f.number_field :fuerte_old_sold %><br/>
+
+    <%= f.label :fuerte_rico_sold, "FUERTE Rico Sold" %><br/>
+    <%= f.number_field :fuerte_rico_sold %><br/>
+
+    <%= f.label :anniversario_sold, "40th Anniv. Sold" %><br/>
+    <%= f.number_field :anniversario_sold %><br/>
+
+    <%= f.label :remarks, "Remarks" %><br/>
+    <%= f.text_area :remarks %><br/>
+
+    <%= f.label :name, "Contact Name" %><br/>
+    <%= f.text_field :name %><br/>
+
+    <%= f.label :phone, "Phone Number" %><br/>
+    <%= f.telephone_field :phone %><br/>
+
+    <%= f.label :fax, "Fax Number" %><br/>
+    <%= f.telephone_field :fax %><br/>
+
+    <%= f.label :fl_resale_cert, "FL Resale" %><br/>
+    <%= f.text_field :fl_resale_cert %><br/>
+
+    <%= f.submit %><br/>
+
+  <% end %>
+</div>
+</div>

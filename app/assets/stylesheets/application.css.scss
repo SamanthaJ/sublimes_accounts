@@ -1,2 +1,45 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+* {
+  font-weight: 200;
+  text-align: center;
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;  
+  color: gray;
+}
+
+h2 {
+    font-weight: 100;
+    color: gray;
+}
+
+h3 {
+    font-weight: 100;
+    color: gray;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.table {
+  border-style: solid;
+  border-width: thin;
+}
+
+.inline {
+  display: inline;
+}
+
+
+
